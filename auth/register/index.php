@@ -38,13 +38,13 @@
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Username</label>
+                                    <label class="label">Tên Đăng nhập</label>
                                     <input minlength="5" maxlength="20" class="input--style-4" type="text" name="username">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Password</label>
+                                    <label class="label">Mật Khẩu</label>
                                     <input  minlength="8" maxlength="50" class="input--style-4" type="password" name="password">
                                 </div>
                             </div>
@@ -52,13 +52,13 @@
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Fullname</label>
+                                    <label class="label">Họ và Tên</label>
                                     <input  minlength="5" maxlength="100" class="input--style-4" type="text" name="fullname">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Address</label>
+                                    <label class="label">Địa Chỉ</label>
                                     <input  minlength="5" maxlength="100" class="input--style-4" type="text" name="address">
                                 </div>
                             </div>
@@ -66,7 +66,7 @@
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Birthday</label>
+                                    <label class="label">Ngày sinh</label>
                                     <div class="input-group-icon">
                                         <input readonly class="input--style-4 js-datepicker" type="text" name="dob">
                                         <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
@@ -75,13 +75,13 @@
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Gender</label>
+                                    <label class="label">Giới tính</label>
                                     <div class="p-t-10">
-                                        <label class="radio-container m-r-45">Male
+                                        <label class="radio-container m-r-45">Nam
                                             <input type="radio" checked="checked" value=1 name="gender">
                                             <span class="checkmark"></span>
                                         </label>
-                                        <label class="radio-container">Female
+                                        <label class="radio-container">Nữ
                                             <input type="radio" value=0 name="gender">
                                             <span class="checkmark"></span>
                                         </label>
@@ -98,7 +98,7 @@
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Phone Number</label>
+                                    <label class="label">số điện thoại</label>
                                     <input  minlength="10" maxlength="10" class="input--style-4" type="text" name="phone">
                                 </div>
                             </div>
