@@ -23,7 +23,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="favicon.png" rel="icon">
+    <link href="valorantlogo1.png" rel="icon">
     <meta name="author" content="Nguyễn Vương Ngọc Sang">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
@@ -216,7 +216,7 @@
           </div>
         </div>
       </div>
-      <div class="ps-footer bg--cover" data-background="images/background/parallax.jpg">
+      <div class="ps-footer bg--cover" data-background="images/banner/687e2744a1a4844a2fe62ad46583676e.jpg">
         <div class="ps-footer__content">
           <div class="ps-container">
             <div class="row">
