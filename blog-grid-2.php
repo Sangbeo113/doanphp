@@ -11,10 +11,10 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
     <link href="favicon.png" rel="icon">
-    <meta name="author" content="Nghia Minh Luong">
+    <meta name="author" content="Nguyễn Vương Ngọc Sang">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
-    <title>Sky - Blog Grid 2</title>
+    <title>SkT - Tin tức thời trang</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
@@ -44,22 +44,15 @@
     <header class="header">
       <div class="header__top">
         <div class="container-fluid">
-        <div class="row">
+          <div class="row">
                 <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12 ">
-                  <p>460 West 34th Street, 15th floor, New York  -  Hotline: 804-377-3580 - 804-399-3580</p>
+                  <p>181 đường số 20,Quận 1, tòa nhà blindbox tầng 21  -  Hotline: +026-333-3333 - +026-777-7777</p>
                 </div>
                 <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 ">
                   <div class="header__actions">
                     <?php
                       require_once("backend/filterWithCookie.php");
                     ?>
-                    <!-- <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language<i class="fa fa-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Japanese</a></li>
-                        <li><a href="#">Chinese</a></li>
-                      </ul>
-                    </div> -->
                   </div>
                 </div>
           </div>
@@ -72,25 +65,27 @@
           </div>
           <div class="navigation__column center">
                 <ul class="main-menu menu">
-                  <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Trang chủ</a>
                   </li>
                   <li class="menu-item menu-item-has-children has-mega-menu"><a href="#">Men</a>
                     
                   </li>
                   <li class="menu-item"><a href="#">Women</a></li>
                   <li class="menu-item"><a href="#">Kids</a></li>
-                  <li class="menu-item menu-item-has-children dropdown"><a href="#">News</a>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="#">brands</a>
                         <ul class="sub-menu">
-                          <li class="menu-item menu-item-has-children dropdown"><a href="blog-grid.php">Blog-grid</a>
+                          <li class="menu-item menu-item-has-children dropdown"><a href="blog-grid-2.php">Adidas</a>
                                 <ul class="sub-menu">
-                                  <li class="menu-item"><a href="blog-grid.php">Blog Grid 1</a></li>
-                                  <li class="menu-item"><a href="blog-grid-2.php">Blog Grid 2</a></li>
+                                  <li class="menu-item"><a href="blog-grid-2.php">Sneaker</a></li>
+                                  <li class="menu-item"><a href="blog-grid-2.php">Giay the thao</a></li>
+                                  <li class="menu-item"><a href="blog-grid-2.php">dep</a></li>
+                                  <li class="menu-item"><a href="blog-grid-2.php">giay chay bo</a></li>
                                 </ul>
                           </li>
-                          <li class="menu-item"><a href="blog-list.php">Blog List</a></li>
+                          <li class="menu-item"><a href="blog-list.php">Nike</a></li>
                         </ul>
                   </li>
-                  <li class="menu-item menu-item-has-children dropdown"><a href="contact-us.php">Contact</a>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="contact-us.php">Liên Hệ</a>
                   </li>
                 </ul>
           </div>
@@ -109,9 +104,9 @@
     </header>
     <div class="header-services">
       <div class="ps-services owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="false" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000" data-owl-mousedrag="on">
-        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Free delivery</strong>: Get free standard delivery on every order with Sky Store</p>
-        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Free delivery</strong>: Get free standard delivery on every order with Sky Store</p>
-        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Free delivery</strong>: Get free standard delivery on every order with Sky Store</p>
+        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Giao Hàng Miễn Phí</strong>: Liên hệ ngay để nhận được những ưu đãi khi mua hàng tại SKT store</p>
+        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Giao Hàng Miễn Phí</strong>: Liên hệ ngay để nhận được những ưu đãi khi mua hàng tại SKT store</p>
+        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Giao Hàng Miễn Phí</strong>: Liên hệ ngay để nhận được những ưu đãi khi mua hàng tại SKT store</p>
       </div>
     </div>
     <main class="ps-main">
@@ -120,82 +115,82 @@
           <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                   <div class="ps-post mb-30">
-                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/1.jpg" alt=""></div>
-                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">An Inside Look at the Breaking2 Kit</a>
-                      <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.php">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                      <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
+                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/news/gird-4.jpeg" alt=""></div>
+                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Phong cách của những quý ông phong cách Châu Âu</a>
+                      <p class="ps-post__meta"><span>bởi:<a class="mr-5" href="blog.php">Sang Béo</a></span> -<span class="ml-5">tháng 4, 2023</span></p>
+                      <p>Một vài năm gần đây các phong cách dành cho quý ông ngày cang thinh hành ở Việt Nam đặc biệt là giới thượng lưu…</p><a class="ps-morelink" href="blog-detail.php">Đọc thêm<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                   <div class="ps-post mb-30">
-                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/2.jpg" alt=""></div>
-                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Unpacking the Breaking2 Race Strategy</a>
-                      <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.php">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                      <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
+                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/news/gird-5.jpg" alt=""></div>
+                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Thời trang mang trong cách thể thao</a>
+                      <p class="ps-post__meta"><span>bởi:<a class="mr-5" href="blog.php">Sang béo</a></span> -<span class="ml-5">Tháng 4, 2023</span></p>
+                      <p>Một vài năm gần đây các phong cách thể thao ngày cang thịnh hành ở Việt Nam đặc biệt là các bạn trẻ…</p><a class="ps-morelink" href="blog-detail.php">Đọc thêm<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                   <div class="ps-post mb-30">
-                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/3.jpg" alt=""></div>
-                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike’s Latest Football Cleat Breaks the Mold</a>
-                      <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.php">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                      <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
+                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/news/gird-6.jpg" alt=""></div>
+                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike’s phong cách thể thao</a>
+                      <p class="ps-post__meta"><span>bởi:<a class="mr-5" href="blog.php">Sang béo</a></span> -<span class="ml-5">tháng 4, 2023</span></p>
+                      <p>Một vài năm gần đây các phong cách thể thao ngày cang thịnh hành ở Việt Nam đặc biệt là các bạn trẻ…</p><a class="ps-morelink" href="blog-detail.php">Đọc thêm<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                   <div class="ps-post mb-30">
-                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/1.jpg" alt=""></div>
-                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">An Inside Look at the Breaking2 Kit</a>
-                      <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.php">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                      <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
+                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/news/gird-7.jpg" alt=""></div>
+                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike feed with messi gà</a>
+                      <p class="ps-post__meta"><span>Bởi:<a class="mr-5" href="blog.php">Sang Béo</a></span> -<span class="ml-5">tháng 4, 2023</span></p>
+                      <p>Với tư cách 1 huyền thoại messi đã trở thành thần tượng khong thể thiếu với người đam mê bóng đá…</p><a class="ps-morelink" href="blog-detail.php">Đọc thêm<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                   <div class="ps-post mb-30">
-                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/2.jpg" alt=""></div>
-                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Unpacking the Breaking2 Race Strategy</a>
-                      <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.php">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                      <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
+                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/news/gird-8.jpg" alt=""></div>
+                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">adidas with Post malone</a>
+                      <p class="ps-post__meta"><span>Bởi:<a class="mr-5" href="blog.php">Sang Béo</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
+                      <p>Post malone là nhà ca sĩ nổi tiếng bậc nhất nhì nước mỹ với các ca khúc mang đậm chất đường phố và có sức ảnh hưởng…</p><a class="ps-morelink" href="blog-detail.php">Đọc thêm<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                   <div class="ps-post mb-30">
-                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/3.jpg" alt=""></div>
-                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike’s Latest Football Cleat Breaks the Mold</a>
-                      <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.php">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                      <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
+                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/news/gird-9.jpg" alt=""></div>
+                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike’s phong cách 1990</a>
+                      <p class="ps-post__meta"><span>bởi:<a class="mr-5" href="blog.php">Sang Béo</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
+                      <p>Đẻ hoài niệm lại các phong cách thập niên 1990 các nhà thiết kế đã tung ra các bản vẽ…</p><a class="ps-morelink" href="blog-detail.php">Đọc thêm<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                   <div class="ps-post mb-30">
-                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/1.jpg" alt=""></div>
-                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">An Inside Look at the Breaking2 Kit</a>
-                      <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.php">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                      <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
+                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/news/gird-10.jpg" alt=""></div>
+                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike with Post malone</a>
+                      <p class="ps-post__meta"><span>bởi:<a class="mr-5" href="blog.php">Sang Béo</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
+                      <p>Post malone là nhà ca sĩ nổi tiếng bậc nhất nhì nước mỹ với các ca khúc mang đậm chất đường phố và có sức ảnh hưởng…</p><a class="ps-morelink" href="blog-detail.php">Đọc thêm<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                   <div class="ps-post mb-30">
-                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/2.jpg" alt=""></div>
-                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Unpacking the Breaking2 Race Strategy</a>
-                      <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.php">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                      <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
+                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/news/gird-11.jpg" alt=""></div>
+                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike with fashion for old man</a>
+                      <p class="ps-post__meta"><span>bởi:<a class="mr-5" href="blog.php">Sang Béo</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
+                      <p>với tu tưởng khác biệt các nhà thiết kế đã lên ý tưởng để thiết kế các phong cách cho người già với tiêu chí…</p><a class="ps-morelink" href="blog-detail.php">Đọc thêm<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                   <div class="ps-post mb-30">
-                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/blog/3.jpg" alt=""></div>
-                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike’s Latest Football Cleat Breaks the Mold</a>
-                      <p class="ps-post__meta"><span>By:<a class="mr-5" href="blog.php">Alena Studio</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
-                      <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further…</p><a class="ps-morelink" href="blog-detail.php">Read more<i class="fa fa-long-arrow-right"></i></a>
+                    <div class="ps-post__thumbnail"><a class="ps-post__overlay" href="blog-detail.php"></a><img src="images/news/gird-12.jpg" alt=""></div>
+                    <div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike’s Latest Football </a>
+                      <p class="ps-post__meta"><span>bởi:<a class="mr-5" href="blog.php">Sang Béo</a></span> -<span class="ml-5">Jun 10, 2017</span></p>
+                      <p>Huyền thoại Leo torres đã trờ thành huyền thoại làng túc cầu thế với những quả bóng vàng và hàng loạt các giải thưởng…</p><a class="ps-morelink" href="blog-detail.php">Đọc thêm<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -218,93 +213,45 @@
         <div class="ps-container">
           <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
-                  <h3><i class="fa fa-envelope"></i>Sign up to Newsletter</h3>
+                  <h3><i class="fa fa-envelope"></i>Bạn chưa có tài khoản? Đăng kí ngay để được nhận ưu đãi</h3>
                 </div>
                 <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 ">
                   <form class="ps-subscribe__form" action="do_action" method="post">
                     <input class="form-control" type="text" placeholder="">
-                    <button>Sign up now</button>
+                    <button>Đăng kí Ngay</button>
                   </form>
                 </div>
                 <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 ">
-                  <p>...and receive  <span>$20</span>  coupon for first shopping.</p>
+                  <p>...bạn có thể được nhận  <span>$20</span>  voucher giảm giá khi mua tại cửa hàng.</p>
                 </div>
           </div>
         </div>
       </div>
-      <div class="ps-footer bg--cover" data-background="images/background/parallax.jpg">
+      <div class="ps-footer bg--cover" data-background="images/banner/818af675da94b1f522a50aad87a6c091.jpg">
         <div class="ps-footer__content">
           <div class="ps-container">
             <div class="row">
                   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
                     <aside class="ps-widget--footer ps-widget--info">
                       <header><a class="ps-logo" href="index.php"><img src="images/logo-white.png" alt=""></a>
-                        <h3 class="ps-widget__title">Address Office 1</h3>
+                        <h3 class="ps-widget__title">12 Nguyễn Huệ, quận 1, TP Hồ Chí Minh</h3>
                       </header>
                       <footer>
-                        <p><strong>460 West 34th Street, 15th floor, New York</strong></p>
-                        <p>Email: <a href='mailto:support@store.com'>support@store.com</a></p>
-                        <p>Phone: +323 32434 5334</p>
-                        <p>Fax: ++323 32434 5333</p>
+                        <p><strong>Tòa nhà landmark, Tầng 15, Hồ Chí Minh</strong></p>
+                        <p>Email: <a href='mailto:nguyenvuongngocsang11321@gmail.com'>nguyenvuongngocsang11321@gmail.com</a></p>
+                        <p>Phone: +026-333-3333</p>
                       </footer>
                     </aside>
                   </div>
                   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
                     <aside class="ps-widget--footer ps-widget--info second">
                       <header>
-                        <h3 class="ps-widget__title">Address Office 2</h3>
+                        <h3 class="ps-widget__title">13 Phan Văn Trị, quận Gò Vấp,TP Hồ Chí Minh</h3>
                       </header>
                       <footer>
-                        <p><strong>PO Box 16122 Collins  Victoria 3000 Australia</strong></p>
-                        <p>Email: <a href='mailto:support@store.com'>support@store.com</a></p>
-                        <p>Phone: +323 32434 5334</p>
-                        <p>Fax: ++323 32434 5333</p>
-                      </footer>
-                    </aside>
-                  </div>
-                  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
-                    <aside class="ps-widget--footer ps-widget--link">
-                      <header>
-                        <h3 class="ps-widget__title">Find Our store</h3>
-                      </header>
-                      <footer>
-                        <ul class="ps-list--link">
-                          <li><a href="#">Coupon Code</a></li>
-                          <li><a href="#">SignUp For Email</a></li>
-                          <li><a href="#">Site Feedback</a></li>
-                          <li><a href="#">Careers</a></li>
-                        </ul>
-                      </footer>
-                    </aside>
-                  </div>
-                  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
-                    <aside class="ps-widget--footer ps-widget--link">
-                      <header>
-                        <h3 class="ps-widget__title">Get Help</h3>
-                      </header>
-                      <footer>
-                        <ul class="ps-list--line">
-                          <li><a href="#">Order Status</a></li>
-                          <li><a href="#">Shipping and Delivery</a></li>
-                          <li><a href="#">Returns</a></li>
-                          <li><a href="#">Payment Options</a></li>
-                          <li><a href="#">Contact Us</a></li>
-                        </ul>
-                      </footer>
-                    </aside>
-                  </div>
-                  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
-                    <aside class="ps-widget--footer ps-widget--link">
-                      <header>
-                        <h3 class="ps-widget__title">Products</h3>
-                      </header>
-                      <footer>
-                        <ul class="ps-list--line">
-                          <li><a href="#">Shoes</a></li>
-                          <li><a href="#">Clothing</a></li>
-                          <li><a href="#">Accessries</a></li>
-                          <li><a href="#">Football Boots</a></li>
-                        </ul>
+                        <p><strong>Biệt thự số 7 khu city land</strong></p>
+                        <p>Email: <a href='mailto:nguyenvuongngocsang11321@gmail.com'>nguyenvuongngocsang11321@gmail.com</a></p>
+                        <p>Phone: +026-333-3333</p>
                       </footer>
                     </aside>
                   </div>
@@ -315,14 +262,13 @@
           <div class="ps-container">
             <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                    <p>&copy; <a href="#">SKYTHEMES</a>, Inc. All rights Resevered. Design by <a href="#"> Alena Studio</a></p>
+                    <p>&copy; <a href="#">SKT</a>, Inc. Đã đăng kí bản quyền. Thiết kế bởi <a href="#">Sang Béo</a></p>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                     <ul class="ps-social">
-                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="https://www.facebook.com/profile.php?id=100038802183933"><i class="fa fa-facebook"></i></a></li>
                       <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                      <li><a href="https://www.instagram.com/_thanhha.272/?fbclid=IwAR2zd30aHRujXvBw1hyB6CsO6GD5WcRibUSW5wzsbEKeqcfpQAluRyxUaMI"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                   </div>
             </div>
