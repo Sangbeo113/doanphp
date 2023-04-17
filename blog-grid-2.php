@@ -48,13 +48,7 @@
                 <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12 ">
                   <p>181 đường số 20,Quận 1, tòa nhà blindbox tầng 21  -  Hotline: +026-333-3333 - +026-777-7777</p>
                 </div>
-                <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 ">
-                  <div class="header__actions">
-                    <?php
-                      require_once("backend/filterWithCookie.php");
-                    ?>
-                  </div>
-                </div>
+                
           </div>
         </div>
       </div>

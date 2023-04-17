@@ -10,11 +10,11 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="favicon.png" rel="icon">
-    <meta name="author" content="Nghia Minh Luong">
+    <link href="valorantlogo1.png" rel="icon">
+    <meta name="author" content="Nguyễn Vương Ngọc Sang">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
-    <title>Sky - Blog Detail</title>
+    <title>SKT - thông tin</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
@@ -46,21 +46,10 @@
         <div class="container-fluid">
         <div class="row">
                 <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12 ">
-                  <p>460 West 34th Street, 15th floor, New York  -  Hotline: 804-377-3580 - 804-399-3580</p>
+                  <p>181 đường số 20,Quận 1, tòa nhà blindbox tầng 21  -  Hotline: +026-333-3333 - +026-777-7777</p>
                 </div>
                 <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 ">
-                  <div class="header__actions">
-                    <?php
-                      require_once("backend/filterWithCookie.php");
-                    ?>
-                    <!-- <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language<i class="fa fa-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Japanese</a></li>
-                        <li><a href="#">Chinese</a></li>
-                      </ul>
-                    </div> -->
-                  </div>
+                  
                 </div>
           </div>
         </div>
@@ -72,25 +61,27 @@
           </div>
           <div class="navigation__column center">
                 <ul class="main-menu menu">
-                  <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Home</a>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="index.php">Trang chủ</a>
                   </li>
                   <li class="menu-item menu-item-has-children has-mega-menu"><a href="#">Men</a>
                    
                   </li>
                   <li class="menu-item"><a href="#">Women</a></li>
                   <li class="menu-item"><a href="#">Kids</a></li>
-                  <li class="menu-item menu-item-has-children dropdown"><a href="#">News</a>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="#">brands</a>
                         <ul class="sub-menu">
-                          <li class="menu-item menu-item-has-children dropdown"><a href="blog-grid.php">Blog-grid</a>
+                          <li class="menu-item menu-item-has-children dropdown"><a href="blog-grid.php">Adidas</a>
                                 <ul class="sub-menu">
-                                  <li class="menu-item"><a href="blog-grid.php">Blog Grid 1</a></li>
-                                  <li class="menu-item"><a href="blog-grid-2.php">Blog Grid 2</a></li>
+                                  <li class="menu-item"><a href="blog-grid.php">Sneaker</a></li>
+                                  <li class="menu-item"><a href="blog-grid-2.php">Giay the thao</a></li>
+                                  <li class="menu-item"><a href="blog-grid-2.php">dep</a></li>
+                                  <li class="menu-item"><a href="blog-grid-2.php">giay chay bo</a></li>
                                 </ul>
                           </li>
-                          <li class="menu-item"><a href="blog-list.php">Blog List</a></li>
+                          <li class="menu-item"><a href="blog-list.php">Nike</a></li>
                         </ul>
                   </li>
-                  <li class="menu-item menu-item-has-children dropdown"><a href="contact-us.php">Contact</a>
+                  <li class="menu-item menu-item-has-children dropdown"><a href="contact-us.php">Liên hệ</a>
                   </li>
                 </ul>
           </div>
@@ -109,9 +100,9 @@
     </header>
     <div class="header-services">
       <div class="ps-services owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="false" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000" data-owl-mousedrag="on">
-        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Free delivery</strong>: Get free standard delivery on every order with Sky Store</p>
-        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Free delivery</strong>: Get free standard delivery on every order with Sky Store</p>
-        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Free delivery</strong>: Get free standard delivery on every order with Sky Store</p>
+        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Giao Hàng Miễn Phí</strong>: Liên hệ ngay để nhận được những ưu đãi khi mua hàng tại SKT store</p>
+        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Giao Hàng Miễn Phí</strong>: Liên hệ ngay để nhận được những ưu đãi khi mua hàng tại SKT store</p>
+        <p class="ps-service"><i class="ps-icon-delivery"></i><strong>Giao Hàng Miễn Phí</strong>: Liên hệ ngay để nhận được những ưu đãi khi mua hàng tại SKT store</p>
       </div>
     </div>
     <main class="ps-main">
@@ -122,21 +113,21 @@
                   <div class="ps-post--detail">
                     <div class="ps-post__thumbnail"><img src="images/blog/11.png" alt=""></div>
                     <div class="ps-post__header">
-                      <h3 class="ps-post__title">Unpacking the Breaking 2 Race Strategy</h3>
-                      <p class="ps-post__meta">Posted by <a href="blog-grid.php">Alena Studio</a> on August 17, 2016  in <a href="blog-grid.php">Men Shoes</a> , <a href="blog-grid.php">Stylish</a></p>
+                      <h3 class="ps-post__title">PHONG CÁCH CỦA NHỮNG QUÝ ÔNG PHONG CÁCH CHÂU ÂU</h3>
+                      <p class="ps-post__meta">Được đăng bới <a href="blog-grid.php">Sang béo</a> vào tháng 4, 2023  trong <a href="blog-grid.php">Men Shoes</a> , <a href="blog-grid.php">VN</a></p>
                     </div>
                     <div class="ps-post__content">
-                      <p>No matter how far along you are in your sophistication as an amateur astronomer, there is always one fundamental moment that we all go back to. That is that very first moment that we went out where you could really see the cosmos well and you took in the night sky. For city dwellers, this is a revelation as profound as if we discovered aliens living among us. Most of us have no idea the vast panorama of lights that dot a clear night sky when there are no city lights to interfere with the view.</p>
+                      <p>Thời trang là một ngành không ngừng phát triển và năng động, ảnh hưởng đến cách chúng ta ăn mặc, suy nghĩ và thể hiện bản thân. Nó bao gồm nhiều phong cách, xu hướng và thị hiếu phản ánh văn hóa và bản sắc cá nhân của chúng ta. Thời trang không chỉ là quần áo mà còn bao gồm các phụ kiện, kiểu tóc, trang điểm và thậm chí cả cách chúng ta cư xử. Từ các buổi trình diễn thời trang cao cấp đến phong cách đường phố, thời trang là một hình thức thể hiện bản thân cho phép chúng ta thể hiện sự sáng tạo, cá tính và cá tính của mình. Như câu nói "thời trang sẽ tàn lụi nhưng phong cách là trường tồn" và câu nói này phản ánh tác động lâu dài của thời trang đối với cuộc sống của chúng ta.</p>
                       <blockquote>
-                        <p>It seems from the moment you begin to take your love of astronomy seriously, the thing that is on your mind is what kind of telescope will you get. And there is no question, investing in a good telescope can really enhance your enjoyment of your new passion in astronomy.</p>
-                        <p class="author">Rodney <br> <span>Cannon</span></p>
+                        <p>Thời trang dường như được coi la một trong những thứ quan trọng trong đời sống hàng ngày của chúng ta, thời trang là 1 phần của cuộc sống và nó đã thành văn hoá trong xã hội chúng ta.</p>
+                        <p class="author">CEO<br> <span>Sang Béo</span></p>
                       </blockquote>
-                      <p>In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space   telescope known as the Hubble. While NASA has had many ups and downs, the launch and continued operation of the Hubble space telescope probably ranks next to the moon landings ace exploration accomplishments of the last hundred years.</p>
+                      <p>.</p>
                     </div>
                     <div class="ps-post__footer">
-                      <p class="ps-post__tags"><i class="fa fa-tags"></i><a href="blog-list.php">Man shoe</a>,<a href="blog-list.php"> Woman</a>,<a href="blog-list.php"> Nike</a></p>
-                      <div class="ps-post__actions"><span><i class="fa fa-comments"></i> 23 Comments</span><span><i class="fa fa-heart"></i>  likes</span>
-                        <div class="ps-post__social"><i class="fa fa-share-alt"></i><a href="#">Share</a>
+                      <p class="ps-post__tags"><i class="fa fa-tags"></i><a href="index.php">giày </a>,<a href="index.php"> Adidas</a>,<a href="index.php"> Nike</a></p>
+                      <div class="ps-post__actions"><span><i class="fa fa-comments"></i> 23 bình luận</span><span><i class="fa fa-heart"></i>  lượt thích</span>
+                        <div class="ps-post__social"><i class="fa fa-share-alt"></i><a href="#">chia sẻ</a>
                           <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -150,48 +141,48 @@
                     <div class="ps-author__thumbnail"><img src="images/user/1.jpg" alt=""></div>
                     <div class="ps-author__content">
                       <header>
-                        <h4>MARK GREY</h4>
-                        <p>WEB DESIGNER</p>
+                        <h4>Koi</h4>
+                        <p>khách hàng</p>
                       </header>
-                      <p>The development of the mass spectrometer allowed the mass of atoms to be measured with increased accuracy. The device uses the launch and continued operation of the Hubble space telescope probably.</p>
+                      <p>Chát lượng phục vụ rất tốt.</p>
                     </div>
                   </div>
                   <div class="ps-comments">
-                    <h3>Comment(4)</h3>
+                    <h3>bình luận(4)</h3>f
                     <div class="ps-comment">
                       <div class="ps-comment__thumbnail"><img src="images/user/2.jpg" alt=""></div>
                       <div class="ps-comment__content">
                         <header>
-                          <h4>MARK GREY <span>(15 minutes ago)</span></h4><a href="#">Reply<i class="ps-icon-arrow-left"></i></a>
+                          <h4>Huy Phan<span>(15 phút trước</span></h4><a href="#">Trả Lời<i class="ps-icon-arrow-left"></i></a>
                         </header>
-                        <p>The development of the mass spectrometer allowed the mass of atoms to be measured with increased accuracy. The device uses the launch and continued operation of the Hubble space telescope probably.</p>
+                        <p>chất lượng phục vụ và sản phẩm tốt.</p>
                       </div>
                     </div>
                     <div class="ps-comment ps-comment--reply">
                       <div class="ps-comment__thumbnail"><img src="images/user/3.jpg" alt=""></div>
                       <div class="ps-comment__content">
                         <header>
-                          <h4>MARK GREY <span>(3 hours ago)</span></h4><a href="#">Reply<i class="ps-icon-arrow-left"></i></a>
+                          <h4>Trung Phan<span>(3 giờ trước)</span></h4><a href="#">trả lời<i class="ps-icon-arrow-left"></i></a>
                         </header>
-                        <p>The development of the mass spectrometer allowed the mass of atoms to be measured with increased accuracy. The device uses  continue ace explore.</p>
+                        <p>rất cảm ơn quý khách.</p>
                       </div>
                     </div>
                     <div class="ps-comment">
                       <div class="ps-comment__thumbnail"><img src="images/user/4.jpg" alt=""></div>
                       <div class="ps-comment__content">
                         <header>
-                          <h4>MARK GREY <span>(1 day ago)</span></h4><a href="#">Reply<i class="ps-icon-arrow-left"></i></a>
+                          <h4>Thành Trung<span>(1 Ngày trước)</span></h4><a href="#">trả lời<i class="ps-icon-arrow-left"></i></a>
                         </header>
-                        <p>The development of the mass spectrometer allowed the mass of atoms to be measured with increased accuracy. The device uses the launch and continued operation of the Hubble space telescope probably.</p>
+                        <p> 5 stars.</p>
                       </div>
                     </div>
                   </div>
                   <form class="ps-form--comment" action="do_action" method="post">
-                    <h3>LEAVE A COMMENT</h3>
+                    <h3>Hãy gửi bình luận</h3>
                     <div class="row">
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                             <div class="form-group">
-                              <input class="form-control" type="text" placeholder="Your Name">
+                              <input class="form-control" type="text" placeholder="Tên">
                             </div>
                           </div>
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
@@ -201,29 +192,29 @@
                           </div>
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                             <div class="form-group">
-                              <input class="form-control" type="text" placeholder="Subject">
+                              <input class="form-control" type="text" placeholder="Đánh giá">
                             </div>
                           </div>
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                             <div class="form-group">
-                              <input class="form-control" type="text" placeholder="Phone Number">
+                              <input class="form-control" type="text" placeholder="Số điẹn thoại">
                             </div>
                           </div>
                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                             <div class="form-group">
-                              <textarea class="form-control" rows="6" placeholder="Text your message here..."></textarea>
+                              <textarea class="form-control" rows="6" placeholder="Ghi chú..."></textarea>
                             </div>
                           </div>
                     </div>
                     <div class="form-group">
-                      <button class="ps-btn ps-btn--sm ps-contact__submit">Send Message<i class="ps-icon-next"></i></button>
+                      <button class="ps-btn ps-btn--sm ps-contact__submit">Gửi<i class="ps-icon-next"></i></button>
                     </div>
                   </form>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
                   <aside class="ps-widget--sidebar ps-widget--search">
                     <form class="ps-search--widget" action="do_action" method="post">
-                      <input class="form-control" type="text" placeholder="Search posts...">
+                      <input class="form-control" type="text" placeholder="Tìm kiếm...">
                       <button><i class="ps-icon-search"></i></button>
                     </form>
                   </aside>
@@ -233,25 +224,25 @@
                     </div>
                     <div class="ps-widget__content">
                       <ul class="ps-list--arrow">
-                        <li class="current"><a href="product-listing.php">Sky(321)</a></li>
-                        <li><a href="product-listing.php">Amazin’ Glazin’</a></li>
-                        <li><a href="product-listing.php">The Crusty Croissant</a></li>
-                        <li><a href="product-listing.php">The Rolling Pin</a></li>
-                        <li><a href="product-listing.php">Skippity Scones</a></li>
-                        <li><a href="product-listing.php">Mad Batter</a></li>
-                        <li><a href="product-listing.php">Confection Connection</a></li>
+                        <li class="current"><a href="product-listing.php">SKT(321)</a></li>
+                        <li><a href="product-listing.php">Nike(20)</a></li>
+                        <li><a href="product-listing.php">Adidas(15)</a></li>
+                        <li><a href="product-listing.php">Puma(12)</a></li>
+                        <li><a href="product-listing.php">Bitis hunter(10)</a></li>
+                        <li><a href="product-listing.php">gucci(50)</a></li>
+                        <li><a href="product-listing.php">channel(30)</a></li>
                       </ul>
                     </div>
                   </aside>
                   <aside class="ps-widget--sidebar">
                     <div class="ps-widget__header">
-                      <h3>Ads Banner</h3>
+                      <h3>Thông tin hot</h3>
                     </div>
                     <div class="ps-widget__content"><a href="product-listing"><img src="images/offer/sidebar.jpg" alt=""></a></div>
                   </aside>
                   <aside class="ps-widget--sidebar">
                     <div class="ps-widget__header">
-                      <h3>Recent Posts</h3>
+                      <h3>gần đây</h3>
                     </div>
                     <div class="ps-widget__content">
                       <div class="ps-post--sidebar">
